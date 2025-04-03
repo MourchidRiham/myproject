@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rent Licorne</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-pink-200 to-purple-300 min-h-screen font-sans">
+  <header class="text-center py-10">
+    <h1 class="text-5xl font-bold text-white drop-shadow-lg">🦄 Rent Licorne</h1>
+    <p class="text-xl text-white mt-4">Louez une licorne pour vos événements magiques !</p>
+  </header>
+
+  <section class="px-8 py-6">
+    <h2 class="text-3xl font-bold text-purple-800 mb-6">Nos licornes disponibles</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Licorne Card 1 -->
+      <div class="bg-white rounded-2xl shadow-xl p-4">
+        <img src="https://images.unsplash.com/photo-1602600691740-0b3c1b28ba0d" alt="Licorne Arc-en-Ciel" class="rounded-xl mb-4">
+        <h3 class="text-xl font-semibold text-pink-600">Arc-en-Ciel</h3>
+        <p>Calme, aime les arcs-en-ciel 🌈</p>
+        <p class="font-bold mt-2">120€/jour</p>
+      </div>
+      <!-- Licorne Card 2 -->
+      <div class="bg-white rounded-2xl shadow-xl p-4">
+        <img src="https://images.unsplash.com/photo-1602810317752-c2a7c8cfc2c1" alt="Licorne Etoile" class="rounded-xl mb-4">
+        <h3 class="text-xl font-semibold text-purple-600">Étoile Filante</h3>
+        <p>Rapide, aime galoper sous les étoiles ✨</p>
+        <p class="font-bold mt-2">150€/jour</p>
+      </div>
+      <!-- Licorne Card 3 -->
+      <div class="bg-white rounded-2xl shadow-xl p-4">
+        <img src="https://images.unsplash.com/photo-1621768217502-1b8a357c8332" alt="Licorne Lune" class="rounded-xl mb-4">
+        <h3 class="text-xl font-semibold text-indigo-600">Lune Blanche</h3>
+        <p>Mystérieuse, adore les câlins 🥺</p>
+        <p class="font-bold mt-2">170€/jour</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="px-8 py-6 bg-white rounded-t-3xl mt-10">
+    <h2 class="text-3xl font-bold text-pink-700 mb-4">Réservez votre licorne</h2>
+    <form class="grid gap-4 md:grid-cols-2">
+      <input type="text" placeholder="Votre nom" class="p-3 rounded-xl border">
+      <input type="email" placeholder="Email" class="p-3 rounded-xl border">
+      <input type="date" class="p-3 rounded-xl border">
+      <select class="p-3 rounded-xl border">
+        <option>Choisissez une licorne</option>
+        <option>Arc-en-Ciel</option>
+        <option>Étoile Filante</option>
+        <option>Lune Blanche</option>
+      </select>
+      <textarea placeholder="Message ou besoins spéciaux" class="md:col-span-2 p-3 rounded-xl border"></textarea>
+      <button type="submit" class="md:col-span-2 bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 rounded-xl">Réserver</button>
+    </form>
+  </section>
+
+  <footer class="text-center text-white py-6 mt-10">
+    <p>&copy; 2025 Rent Licorne. Tous droits réservés. 🦄</p>
+  </footer>
+</body>
+</html>
